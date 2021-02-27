@@ -9,7 +9,7 @@ public class Main {
         String userName = "Will1234";
         String password = "12345678";
         int trials = 1;
-
+        //Predefined Username & Password
         String un = JOptionPane.showInputDialog("Enter Username :");
         String pass = JOptionPane.showInputDialog("Enter Password :");
         while( !(un.equals(userName) && pass.equals(password)) && trials < 2)
